@@ -1,0 +1,97 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background: #8a51fc;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    border-radius: 6px;
+    width: 375px;
+}
+
+label {
+    width: 327;
+    height: 72;
+    top: 44px;
+    left: 24px;
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+select,
+input {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    padding-left: 18px;
+    font-weight: 700;
+    color: #555555;
+
+}
+
+
+button {
+    width: 100%;
+    height: 48px;
+    top: 329px;
+    left: 24px;
+    opacity: 1;
+    border-radius: 5px;
+    background-color: #772FD3;
+    color : #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    padding: 12px;
+    align-items: center;
+}
+
+.seta {
+    margin: 15px 0 ;
+}
+
+.bandeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}

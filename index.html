@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversorcambio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo 1.png" alt="logo mao com dinheiro">
+
+    <main>
+        <label> Converter <b>de</b>
+            <select class="moedaorigem">
+
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra esterlina</option>
+                <option value="bitcoin"> Bitcoin</option>
+
+            </select>
+        </label>
+
+        <label> Converter <b>para</b>
+            <select class= "seletor-moeda">
+
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra esterlina</option>
+                <option value="bitcoin"> Bitcoin</option>
+                <option value="real">R$ Real brasileiro</option>
+
+            </select>
+        </label>
+
+        <label>
+            <input class="input-valor" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="butao1">Converter</button>
+
+        <section>
+            <div class="bandeira">
+                <img class="bandeiraorigem" src="./assets/brasil 2.png" alt="bandeira do brasil">
+                <p class="moedaentrada"> Real</p>
+                <p class="p1">Valor Reais</p>
+            </div>
+
+            <div class="seta">
+                <img src="./assets/Vector.png" alt="seta de conversão">
+            </div>
+
+            <div class="bandeira">
+                <img class="bandeira-gringa" src="assets/estados-unidos (1) 1.png" alt="bandeira dos estados unidos">
+                <p class="moedagringa"> Dólar US</p>
+                <p class="p2">Valor Convertido</p>
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+
+<script src="scripts.js" ></script>
+
+</html>
