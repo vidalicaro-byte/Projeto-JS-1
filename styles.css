@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #8a51fc;
+    background: #ced5db;
 }
 
 .logo {
@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 30%;
 }
 
 main {
@@ -65,7 +66,7 @@ button {
     left: 24px;
     opacity: 1;
     border-radius: 5px;
-    background-color: #772FD3;
+    background-color: #e7b147;
     color : #ffffff;
     font-weight: 700;
     cursor: pointer;
@@ -99,4 +100,12 @@ section {
     align-items: center;
     gap: 12px;
     margin-bottom: 12px;
+}
+
+@media screen and (max-width: 600px) { 
+
+    .logo{
+        width: 300px;
+    }
+    
 }
